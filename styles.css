@@ -1,0 +1,82 @@
+
+html, body, div, h1, h2, h3, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: skyblue; 
+}
+
+
+header {
+    background-image: url('Imagefolder/header.jpg');
+    padding: 10px 0;
+}
+
+.header-content  {
+    color: white;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+
+.hero {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3
+}
+.features h2,
+.features p,
+.download h2,
+.download p,
+.pricing h2,
+.pricing p,
+.faq h2,
+.faq p,
+.contact h2,
+.contact p {
+    margin-bottom: 20px; 
+}
